@@ -25,11 +25,18 @@ angular.module('app.controllers', [])
   								{sana: 'Ankkuri'},
   								{sana: 'Kissa'},
   								{sana: 'Koira'},
+                  {sana: 'Ahven'},
+                  {sana: 'Puhelin'},
+                  {sana: 'Olut'},
+                  {sana: 'Nuuska'},
+                  {sana: 'Nurmikko'},
   								{sana: 'Leivinpaperi'}
   							];
 
   var vastaukset = [
   								{sana: 'auto', kuva: 'img/auto.png', vastaus: 'joo'},
+                  {sana: 'Mämmi', kuva: 'img/mammi.jpg', vastaus: 'joo'},
+                  {sana: 'Mustamakkara', kuva: 'img/maggara.jpg', vastaus: 'joo'},
   								{sana: 'keksi', kuva: 'img/keksi.png', vastaus: 'joo'}
   							];
 
@@ -98,7 +105,7 @@ angular.module('app.controllers', [])
 .controller('turvapaikkahakemusCtrl', function($scope) {
 
 })
-   
+
 .controller('tehtVCtrl', function($scope, $ionicPopup) {
   $scope.correctOrNot = function(yesOrNo) {
       var title = ""
