@@ -29,8 +29,8 @@ angular.module('app.controllers', [])
   							];
 
   var vastaukset = [
-  								{sana: 'auto', kuva: 'http://alturl.com/6hfxb', vastaus: 'joo'},
-  								{sana: 'keksi', kuva: 'http://alturl.com/69r7g', vastaus: 'joo'}
+  								{sana: 'auto', kuva: 'img/auto.png', vastaus: 'joo'},
+  								{sana: 'keksi', kuva: 'img/keksi.png', vastaus: 'joo'}
   							];
 
   var items = [];
