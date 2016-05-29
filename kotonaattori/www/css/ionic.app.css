@@ -9737,9 +9737,14 @@ a.button {
   padding-top: 6px; }
 
 .napit {
-  height: 50px;
+  padding: 10px;
   margin-bottom: 20px;
-  width: 100%; }
+  color: white;
+  font-size: 22px;
+  width: 300px;
+  background: #aaaaaa;
+  border: 4px solid #464646;
+  text-align: center; }
 
 .oikein {
   text-align: center;

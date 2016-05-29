@@ -5,11 +5,11 @@
       <img ng-src="{{kuva}}" alt="kuva">
       <br><br>
       <div ng-repeat="item in vaihtoehdot">
-      <button class="napit" ng-click="checkAnswer(item.vastaus)">{{item.sana}}</button>
+      <div class="napit" ng-click="checkAnswer(item.vastaus)">{{item.sana}}</div>
       </div>
       <div class="oikein" ng-if="tulos === 'oikein'">Vastasit oikein!</div>
       <div class="vaarin" ng-if="tulos === 'vaarin'">Vastasit väärin :(</div>
-      <button class="napit" ng-click="again()">Uudestaan!</button>
+      <div class="napit" ng-click="again()">Uudestaan!</div>
       </div>
 
 

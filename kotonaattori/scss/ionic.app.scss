@@ -29,9 +29,14 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 }
 
 .napit{
-  height:50px;
+  padding:10px;
   margin-bottom:20px;
-  width:100%;
+  color:white;
+  font-size: 22px;
+  width:300px;
+  background: rgb(170, 170, 170);
+  border:4px solid rgb(70, 70, 70);
+  text-align: center;
 }
 
 .oikein {
