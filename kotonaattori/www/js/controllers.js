@@ -98,7 +98,22 @@ angular.module('app.controllers', [])
 .controller('turvapaikkahakemusCtrl', function($scope) {
 
 })
-
-.controller('tehtVCtrl', function($scope) {
-
+   
+.controller('tehtVCtrl', function($scope, $ionicPopup) {
+  $scope.correctOrNot = function(yesOrNo) {
+      var title = ""
+      var message = ""
+      if (yesOrNo === true) {
+        title = "Niceness!"
+        message = "That's correct!"
+      } else {
+        title = "Oh no!"
+        message = "Unfortunately that was wrong!"
+      }
+      var alertPopup = $ionicPopup.alert({
+        title: title,
+        template: message
+      });
+      console.log("Turkanen")
+  }
 })
