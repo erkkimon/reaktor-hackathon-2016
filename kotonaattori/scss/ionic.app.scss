@@ -21,3 +21,29 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
 
+
+.center{
+  margin: 0 auto;
+  width:350px;
+  padding-top: 6px;
+}
+
+.napit{
+  height:50px;
+  margin-bottom:20px;
+  width:100%;
+}
+
+.oikein {
+  text-align: center;
+  font-size: 44px;
+  color:green;
+  margin-bottom:20px;
+}
+
+.vaarin {
+  text-align: center;
+  font-size: 44px;
+  color:red;
+  margin-bottom:20px;
+}
